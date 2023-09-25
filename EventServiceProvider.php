@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Events;
+namespace WPWhales\Events;
 
-use Illuminate\Contracts\Queue\Factory as QueueFactoryContract;
-use Illuminate\Support\ServiceProvider;
+use WPWhales\Contracts\Queue\Factory as QueueFactoryContract;
+use WPWhales\Support\ServiceProvider;
 
 class EventServiceProvider extends ServiceProvider
 {

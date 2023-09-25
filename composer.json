@@ -1,5 +1,5 @@
 {
-    "name": "illuminate/events",
+    "name": "wpwhales/events",
     "description": "The Illuminate Events package.",
     "license": "MIT",
     "homepage": "https://laravel.com",
@@ -15,16 +15,16 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/bus": "^11.0",
-        "illuminate/collections": "^11.0",
-        "illuminate/container": "^11.0",
-        "illuminate/contracts": "^11.0",
-        "illuminate/macroable": "^11.0",
-        "illuminate/support": "^11.0"
+        "wpwhales/bus": "dev-master",
+        "wpwhales/collections": "dev-master",
+        "wpwhales/container": "dev-master",
+        "wpwhales/contracts": "dev-master",
+        "wpwhales/macroable": "dev-master",
+        "wpwhales/support": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Illuminate\\Events\\": ""
+            "WPWhales\\Events\\": ""
         },
         "files": [
             "functions.php"

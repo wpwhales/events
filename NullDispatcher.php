@@ -1,9 +1,9 @@
 <?php
 
-namespace Illuminate\Events;
+namespace WPWhales\Events;
 
-use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
-use Illuminate\Support\Traits\ForwardsCalls;
+use WPWhales\Contracts\Events\Dispatcher as DispatcherContract;
+use WPWhales\Support\Traits\ForwardsCalls;
 
 class NullDispatcher implements DispatcherContract
 {
@@ -12,14 +12,14 @@ class NullDispatcher implements DispatcherContract
     /**
      * The underlying event dispatcher instance.
      *
-     * @var \Illuminate\Contracts\Events\Dispatcher
+     * @var \WPWhales\Contracts\Events\Dispatcher
      */
     protected $dispatcher;
 
     /**
      * Create a new event dispatcher instance that does not fire.
      *
-     * @param  \Illuminate\Contracts\Events\Dispatcher  $dispatcher
+     * @param  \WPWhales\Contracts\Events\Dispatcher  $dispatcher
      * @return void
      */
     public function __construct(DispatcherContract $dispatcher)

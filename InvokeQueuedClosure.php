@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Events;
+namespace WPWhales\Events;
 
 class InvokeQueuedClosure
 {

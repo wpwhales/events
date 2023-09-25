@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Events;
+namespace WPWhales\Events;
 
 use Closure;
 use Laravel\SerializableClosure\SerializableClosure;

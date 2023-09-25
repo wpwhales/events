@@ -1,15 +1,15 @@
 <?php
 
-namespace Illuminate\Events;
+namespace WPWhales\Events;
 
 use Closure;
 
-if (! function_exists('Illuminate\Events\queueable')) {
+if (! function_exists('WPWhales\Events\queueable')) {
     /**
      * Create a new queued Closure event listener.
      *
      * @param  \Closure  $closure
-     * @return \Illuminate\Events\QueuedClosure
+     * @return \WPWhales\Events\QueuedClosure
      */
     function queueable(Closure $closure)
     {
